@@ -55,12 +55,74 @@ export default function Home() {
             </div>
             <div className="about-image">
               <Image
-                src={"/hero.png"}
-                alt="Hero image"
+                src="/about.jpg"
+                alt="About image"
                 width={1000}
                 height={100}
-                className="mt-12 md:mt-0"
+                className="mt-12 md:mt-0 rounded-lg shadow-lg"
               ></Image>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact-area py-10 md:py-20 " id="contact">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-10">
+            <div className="contact-text">
+              <h3 className="title">contact me</h3>
+
+              <p className="mt-5 text-[--secondary-color]">
+                I am interested in working with Remote. Any company that thinks
+                my skill will be helpful for them. If you are for someone like
+                me, please let me know. Or you can just {"'Say hi,'"} to me.
+              </p>
+              <div className="hero-action mt-10">
+                <Link href="#">Contact me</Link>
+              </div>
+            </div>
+            <div className="contact-details">
+              <div className="single-contact-info mb-5">
+                <h4 className="text-xl text-black font-semibold">Email:</h4>
+                <p>
+                  <Link href="mailto:freelancerrahim26@gmail.com">
+                    freelancerrahim26@gmail.com <span>recommend</span>
+                  </Link>
+                </p>
+              </div>
+              <div className="single-contact-info mb-5">
+                <h4 className="text-xl text-black font-semibold">Skype:</h4>
+                <p>
+                  <Link
+                    href="https://join.skype.com/invite/p7vc4mRwpGK8"
+                    target="_blank"
+                  >
+                    Join Skype <span>Always available</span>
+                  </Link>
+                </p>
+              </div>
+              <div className="single-contact-info mb-5">
+                <h4 className="text-xl text-black font-semibold">Linkedin:</h4>
+                <p>
+                  <Link
+                    href="https://www.linkedin.com/in/abdurrahim5g/"
+                    target="_blank"
+                  >
+                    Connect on Linkedin <span>1 day responce</span>
+                  </Link>
+                </p>
+              </div>
+              <div className="single-contact-info mb-5">
+                <h4 className="text-xl text-black font-semibold">Linkedin:</h4>
+                <p>
+                  <Link
+                    href="https://www.facebook.com/devrahim26"
+                    target="_blank"
+                  >
+                    Facebook <span>1 day responce</span>
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
         </div>

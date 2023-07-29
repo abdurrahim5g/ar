@@ -15,6 +15,11 @@ a {
   transition: 0.2s;
 }
 
+body {
+  --tc: #666;
+  color: var(--tc);
+}
+
 .main-menu a {
   border-radius: 7px;
   padding: 10px 25px;
@@ -78,4 +83,16 @@ h3.title:after {
   width: 50px;
   height: 4px;
   bottom: -1px;
+}
+
+.single-contact-info span::before {
+  content: "(";
+}
+
+.single-contact-info span::after {
+  content: ")";
+}
+
+.single-contact-info a:hover {
+  color: var(--primary-color);
 }
