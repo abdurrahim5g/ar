@@ -35,3 +35,20 @@ a {
 .social-links a:hover {
   transform: scale(1.2);
 }
+
+.hero-action a {
+  display: inline-block;
+  border: 1px solid var(--primary-color);
+  margin-right: 15px;
+  border-radius: 4px;
+  padding: 10px 25px;
+}
+
+.hero-action a:first-child {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.hero-action a:hover {
+  box-shadow: 3px 3px 0px 0px var(--primary-color);
+}
