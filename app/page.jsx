@@ -113,7 +113,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="single-contact-info mb-5">
-                <h4 className="text-xl text-black font-semibold">Linkedin:</h4>
+                <h4 className="text-xl text-black font-semibold">Facebook:</h4>
                 <p>
                   <Link
                     href="https://www.facebook.com/devrahim26"

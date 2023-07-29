@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="header-area py-4">
+        <header className="header-area py-4 hidden md:block">
           <div className="container">
             <div className="flex justify-between items-center">
               <div className="logo-area">
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
               </div>
 
               <div className="social-links">
-                <ul className="flex items-center justify-center text-4xl gap-10 text-gray-100">
+                <ul className="flex items-center justify-center text-2xl gap-4 md:text-4xl lg:gap-10 text-gray-100">
                   <li>Follow me on:</li>
                   <li>
                     <Link
